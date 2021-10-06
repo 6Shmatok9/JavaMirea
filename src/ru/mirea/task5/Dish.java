@@ -1,3 +1,5 @@
+package ru.mirea.task5;
+
 public abstract class Dish {
     private int volume;
     private String color;

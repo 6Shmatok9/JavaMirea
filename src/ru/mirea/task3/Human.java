@@ -1,3 +1,5 @@
+package ru.mirea.task3;
+
 public class Human {
     public Head head;
     public Hand hands;

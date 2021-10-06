@@ -1,3 +1,5 @@
+package ru.mirea.task5;
+
 public class TestDish {
     public static void main(String[] args) {
         Pan d1 = new Pan(1000,"black", true);

@@ -1,3 +1,5 @@
+package ru.mirea.task3;
+
 public class TestBook {
     public static void main(String[] args) {
         Book bk1 = new Book("Name10", "Title10",1950);

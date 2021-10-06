@@ -1,3 +1,5 @@
+package ru.mirea.task4;
+
 public class TestAuthor {
     public static void main(String[] args) {
         Author a1 = new Author("John","jhn.@j.k", 'M');

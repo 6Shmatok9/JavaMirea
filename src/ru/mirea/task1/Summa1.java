@@ -1,3 +1,4 @@
+package ru.mirea.task1;
 import java.util.Scanner;
 
 public class Summa1 {

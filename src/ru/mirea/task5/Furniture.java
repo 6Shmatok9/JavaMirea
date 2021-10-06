@@ -1,3 +1,5 @@
+package ru.mirea.task5;
+
 public abstract class Furniture {
     private String size;
     private String color;

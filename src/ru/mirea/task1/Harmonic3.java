@@ -1,3 +1,5 @@
+package ru.mirea.task1;
+
 public class Harmonic3 {
     public static void main(String[] args) {
         System.out.println("Гармонический ряд:");

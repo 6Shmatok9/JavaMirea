@@ -1,3 +1,5 @@
+package ru.mirea.task1;
+
 import java.util.Scanner;
 
 public class Factorial5 {

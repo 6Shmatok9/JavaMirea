@@ -1,3 +1,4 @@
+package ru.mirea.task5;
 import java.util.Scanner;
 
 public class FurnitureShop {

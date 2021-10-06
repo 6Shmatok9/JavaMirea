@@ -1,3 +1,5 @@
+package ru.mirea.task6;
+
 public class Dog implements Nameable {
     private int weight;
     private String name;

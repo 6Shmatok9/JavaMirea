@@ -1,3 +1,5 @@
+package ru.mirea.task6;
+
 public class TestPriceable {
     public static void main(String[] args) {
         Chair c = new Chair("Big", "Brown", 100);

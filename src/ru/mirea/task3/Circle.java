@@ -1,3 +1,5 @@
+package ru.mirea.task3;
+
 public class Circle {
     private String color;
     private int radius;

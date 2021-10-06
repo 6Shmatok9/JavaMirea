@@ -1,3 +1,5 @@
+package ru.mirea.task2;
+
 public class Shape {
     private String color;
     private String type;
