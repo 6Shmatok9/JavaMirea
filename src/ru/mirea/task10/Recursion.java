@@ -40,6 +40,15 @@ public class Recursion {
         }
     }
 
+    public static int SumOfDigits(int n) {
+        if (n < 10) {
+            return n;
+        }
+        else {
+            return n % 10 + SumOfDigits(n / 10);
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Задание 1");
@@ -58,5 +67,10 @@ public class Recursion {
         int a = Integer.parseInt(sc.nextLine());
         int b = Integer.parseInt(sc.nextLine());
         System.out.println("Последовательность чисел от " + a + " до " + b +": "+ AB(a,b));
+        Scanner sc4 = new Scanner(System.in);
+        System.out.println("\nЗадание 4");
+        System.out.print("Введите число: ");
+        n = Integer.parseInt(sc.nextLine());
+        System.out.println("Сумма цифр числа " + n + " равна " + SumOfDigits(n));
     }
 }
