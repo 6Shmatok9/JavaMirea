@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FileWork {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        File newFile = new File("C:\\Users\\maryi\\Desktop\\JAVA\\JavaMirea\\src\\ru\\mirea\\task15\\file.txt", "Task15.txt");
+        File newFile = new File("C:\\Users\\maryi\\Desktop\\JAVA\\JavaMirea\\src\\ru\\mirea\\task15\\", "newfile.txt");
         if (newFile.exists())
             System.out.println("Файл успешно создан");
 
